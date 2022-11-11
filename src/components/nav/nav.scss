@@ -19,6 +19,14 @@ border-radius: 0px;
         }
     }
     &_left{
+        .GetAPIKeys{
+            text-align: center;
+            background-color: white;
+            height: 25px;
+            width: 150px;
+            color: rgba(36, 71, 91, 1);
+            border-radius: 10px;
+        }
         a{
             margin-left: 30px;
         }
