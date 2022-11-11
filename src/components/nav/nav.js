@@ -16,7 +16,7 @@ function Navigation() {
                 <div className='nav_left'>
                     <a href="#"> Login </a>
                     {/* button */}
-                    <a href="#"> Get API Keys </a> 
+                    <a href="#" className='GetAPIKeys' > Get API Keys </a> 
                 </div>
         </div>
     );
