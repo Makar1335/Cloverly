@@ -1,0 +1,75 @@
+.section-PartnerSpotlight {
+    margin: 0 auto;
+    width: 100%;
+    background: white;
+    padding-bottom: 140px;
+    display: flex;
+
+    .Partner {
+        width: 40%;
+    }
+
+    .rightPart {
+        width: 60%;
+
+        .text {
+            width: 50%;
+            margin-left: 10%;
+
+            .pretitle {
+                font-size: 18px;
+                color: #00CA90;
+                margin-top: 50px;
+            }
+
+            p {
+                margin-top: 20px;
+            }
+
+            .text1 {
+                font-size: 21px;
+            }
+
+            .text2 {
+                font-size: 25px;
+            }
+
+            .quotationmarks {
+                font-size: 52px;
+                color: #00CA90;
+            }
+        }
+
+        .namePartner {
+            margin-top: 40px;
+            margin-left: 10%;
+            display: flex;
+            flex-wrap: wrap;
+
+            p {
+                margin-left: 30px;
+            }
+        }
+
+        .buttons {
+            width: 50%;
+            margin-left: 10%;
+            margin-top: 50px;
+            margin-bottom: 50px;
+            display: flex;
+            justify-content: space-around;
+
+            input {
+                width: 270px;
+                height: 50px;
+                border-radius: 33px;
+                font-size: 18px;
+            }
+
+            .MorePartners {
+                border: 2px solid #00CA90;
+                background: white;
+            }
+        }
+    }
+}

@@ -1,0 +1,39 @@
+.section-CloverlyBlog {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 60px;
+
+    .text {
+        text-align: center;
+        .header{
+            font-size: 18px;
+            color: #00CA90;
+        }
+        h1 {
+            font-size: 60px;
+            margin-top: 30px;
+        }
+    }
+
+
+    .buttons {
+        margin-top: 70px;
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: center;
+
+        input {
+            width: 270px;
+            height: 50px;
+            border-radius: 33px;
+            border: 0px;
+            font-size: 18px;
+        }
+        .ReadMore {
+            border: 2px solid rgba(0, 202, 144, 1);
+            background: white;
+            color: black;
+        }
+    }
+}

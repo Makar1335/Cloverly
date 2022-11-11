@@ -1,0 +1,63 @@
+.section-Footer {
+    margin: 0 auto;
+    width: 100%;
+    padding-top: 70px;
+    padding-bottom: 60px;
+    background: rgba(25, 56, 68, 1);
+
+    .tyty {
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        border-bottom: 2px solid rgba(39, 86, 104, 1);
+        padding-bottom: 30px;
+
+        a {
+            color: rgba(255, 255, 255, 1);
+            margin-right: 30px;
+        }
+
+        input {
+            width: 150px;
+            border-radius: 33px;
+            border: 0px;
+            font-size: 18px;
+        }
+
+        .GetAPIKeys {
+            background: rgba(0, 202, 144, 1);
+            color: white;
+        }
+    }
+
+    .links {
+        margin: 0 auto;
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 80px;
+        border-bottom: 2px solid rgba(39, 86, 104, 1);
+        padding-bottom: 30px;
+
+        p {
+            margin-top: 14px;
+            color: rgba(255, 255, 255, 1);
+
+        }
+
+        name {
+            color: rgba(255, 255, 255, 0.75);
+        }
+    }
+
+    .Cloverly {
+        margin: 0 auto;
+        width: 90%;
+
+        p {
+            color: rgba(255, 255, 255, 1);
+        }
+    }
+}
